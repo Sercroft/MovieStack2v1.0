@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieStack</string>
+    <string name="title_home">Home</string>
+    <string name="title_movies">Películas</string>
+    <string name="title_tv_shows">TV Shows</string>
+    <string name="popular">Popular</string>
+    <string name="show_all">Ver todo</string>
+    <string name="upcoming">Próximamente</string>
+    <string name="in_theaters">En cines</string>
+    <string name="movie_image">movie image</string>
+    <string name="tv_image">tv show image</string>
+    <string name="cast_image">cast image</string>
+    <string name="video">vídeo</string>
+    <string name="videos">Vídeos</string>
+    <string name="cast">Reparto</string>
+    <string name="person_image">person image</string>
+    <string name="biography">Biografía</string>
+    <string name="photos">Fotos</string>
+    <string name="known_for">Más películas</string>
+    <string name="highlighted_movie_image">highlighted movie image</string>
+</resources>
