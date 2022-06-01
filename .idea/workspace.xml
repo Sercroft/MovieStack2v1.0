@@ -1,114 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d5a357-c7b9-4629-b5d1-e33a16ef5219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/fredrikbogg/movie_app/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sercroft/movieStack/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/db/remote/TheMovieDatabaseAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/db/remote/TheMovieDatabaseAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/db/repository/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/db/repository/BaseRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/db/repository/MovieRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/db/repository/MovieRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/db/repository/PersonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/db/repository/PersonRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/db/repository/TvRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/db/repository/TvRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/CombinedLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/CombinedLiveData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/GoTo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/GoTo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/InfiniteContentScrollListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/InfiniteContentScrollListener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/MovieListType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/MovieListType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Cast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Cast.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Credit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Credit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Genre.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Genre.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Image.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Movie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Movie.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/TvShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/TvShow.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/TvShowDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/TvShowDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/entity/Video.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/entity/Video.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/APIResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/APIResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/BaseListResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/BaseListResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/BasePageListResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/BasePageListResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/CreditsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/CreditsResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/GenresResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/GenresResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/MoviesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/MoviesResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/PersonCreditsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/PersonCreditsResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/PersonImagesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/PersonImagesResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/TvDiscoverResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/TvDiscoverResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/data/model/network/VideosResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/data/model/network/VideosResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/BaseFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/CastListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/CastListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/CreditsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/CreditsListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/ImageListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/ImageListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/MovieListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/MovieListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/TvShowListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/TvShowListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/adapter/VideoListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/adapter/VideoListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/binding/ImageViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/binding/ImageViewBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/binding/RatingBarBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/binding/RatingBarBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/binding/RecyclerViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/binding/RecyclerViewBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/binding/TextViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/binding/TextViewBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/binding/ViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/binding/ViewBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/home/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/home/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/home/HomeViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/main/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/movie_details/MovieDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/movie_details/MovieDetailsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/movie_details/MovieDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/movie_details/MovieDetailsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/movies/MoviesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/movies/MoviesFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/movies/MoviesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/movies/MoviesViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/person_details/PersonDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/person_details/PersonDetailsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/person_details/PersonDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/person_details/PersonDetailsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/show_all/ShowAllFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/show_all/ShowAllFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/show_all/ShowAllViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/show_all/ShowAllViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/tv_show_details/TVShowDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/tv_show_details/TVShowDetailsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/tv_show_details/TVShowDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/tv_show_details/TVShowDetailsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/tv_shows/TvShowsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/tv_shows/TvShowsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/ui/tv_shows/TvShowsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/ui/tv_shows/TvShowsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/ServiceBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/ServiceBuilder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/StringUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/StringUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/APIResponseExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/APIResponseExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/FragmentExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/FragmentExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/MutableLiveDataExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/MutableLiveDataExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/RetrofitExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/RetrofitExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/ViewExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/ViewExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fredrikbogg/movie_app/util/extension/ViewModelExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sercroft/movieStack/util/extension/ViewModelExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_movie_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_movie_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_movies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_movies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_person_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_person_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_show_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_show_all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tv_show_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tv_show_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tv_shows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tv_shows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_cast.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_credit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_credit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_movie.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_movie_grid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_movie_grid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_tv_show.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_tv_show.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_tv_show_grid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_tv_show_grid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_video.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/fredrikbogg/movie_app/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/sercroft/movieStack/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/movie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/movies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/person.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/tv_show.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_images/tv_shows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27vzCh7lVcRmTpcAWGf7hxpmg4L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -133,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FriendsR" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -144,7 +50,7 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MovieStack.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
